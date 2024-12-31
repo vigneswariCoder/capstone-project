@@ -1,0 +1,78 @@
+/* Home page styles */
+.hero-section {
+  background-color: #495E57;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.hero-section p {
+  margin: 1rem 0;
+  max-width: 600px;
+}
+
+.menu-section {
+  padding: 2rem 1rem;
+  background-color: #FFFFFF;
+}
+
+.menu-categories {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.category-btn {
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #DDD;
+  border-radius: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.category-btn.active {
+  background-color: #495E57;
+  color: white;
+  border-color: #495E57;
+}
+
+.menu-items {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #DDD;
+}
+
+.menu-item-content {
+  flex: 1;
+}
+
+.menu-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.menu-item p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.menu-item .price {
+  color: #495E57;
+  font-weight: bold;
+}
+
+.menu-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}

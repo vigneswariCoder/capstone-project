@@ -1,0 +1,26 @@
+/* Success page styles */
+.success-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.success-icon {
+  color: #495E57;
+  margin-bottom: 1.5rem;
+}
+
+.success-title {
+  color: #495E57;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.success-message {
+  color: #666;
+  margin-bottom: 2rem;
+}
